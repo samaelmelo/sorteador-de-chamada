@@ -42,5 +42,9 @@ Treine a ${ chamadaEscolhida.includes('chamada') ? chamadaEscolhida : `chamada $
 
 
 random.addEventListener('click', () => {
+  chamadaSorteada.innerText = '... carregando'
+
+ setTimeout(() => {
   chamadaSorteada.innerText = escolherUmaChamada()
+ },1000)
 })
