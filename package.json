@@ -1,0 +1,15 @@
+{
+  "name": "random-c",
+  "version": "1.0.0",
+  "description": "estudos de chamadas da udv",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "author": "Samael Melo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
